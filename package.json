@@ -5,9 +5,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "lint": "eslint pages/**"
   },
   "dependencies": {
+    "eslint": "^7.15.0",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
