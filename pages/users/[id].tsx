@@ -6,7 +6,7 @@ import Layout from '../../components/Layout'
 import ListDetail from '../../components/ListDetail'
 
 type Props = {
-  item?: User
+  item?: User,
   errors?: string
 }
 
